@@ -1,0 +1,103 @@
+@media screen and (max-wide:1200px) {
+
+
+    .shoes-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shoes-boxs {
+        gap: 24px;
+    }
+
+
+}
+
+/* tablet */
+@media screen and (max-width:1015px) {
+    .hero {
+
+        flex-direction: column-reverse;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero {
+        gap: 50px;
+    }
+
+    .shoes-boxs {
+        flex-direction: column;
+    }
+
+    .shoes-boxs {
+        gap: 24px;
+
+
+    }
+
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:640px) {
+    .container {
+        width: 95%;
+    }
+
+    .hero-img {
+        width: 100%;
+        max-width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shoes-boxs {
+        gap: 24px;
+
+    }
+
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+}
+
+/* 400 - (320-) */
+
+
+@media screen and (max-width:400px) {
+    .container {
+        width: 98%;
+    }
+
+    .box {
+        padding: 1px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shoes-boxs {
+        gap: 24px;
+    }
+
+
+}
