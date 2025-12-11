@@ -6,21 +6,23 @@
     font-family: "Poppins", sans-serif;
 
 }
+
 /* comon */
 
 
 .container {
     width: 78%;
     margin: 0 auto;
-    
+
 }
 
 .nave-continer {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 
 }
+
 #nave,
 #hero-section {
     margin-top: 20px;
@@ -30,6 +32,7 @@
     width: 100%;
     max-width: 148px;
 }
+
 .nave-menu {
     width: 100%;
     max-width: 48px;
@@ -38,15 +41,15 @@
 /* hero */
 
 .hero {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    padding:30px;
-   
+    padding: 30px;
+
 }
 
 
-.hero-text *{
+.hero-text * {
     margin-bottom: 10px;
 
 }
@@ -55,19 +58,28 @@
     color: #4e4e4e;
     font-family: inter;
     line-height: 26px;
- 
-}
-.hero-text h2 {
-    color: #FF136F;
-    font-size:41px;
 
 }
+
+.hero-text h2 {
+    color: #FF136F;
+    font-size: 41px;
+
+}
+
 .hero-text button {
     width: 100%;
     max-width: 168px;
     height: 47px;
     cursor: pointer;
-    background-image: linear-gradient(#FF589B,#FF136F);
+    background-image: linear-gradient(#FF589B, #FF136F);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-text button:hover {
+    border: 3px solid yellow;
 }
 
 .hero-img {
@@ -82,7 +94,7 @@
     padding: 10px;
     border-radius: 15px;
     margin-bottom: 60px;
-   
+
 }
 
 /* categories */
@@ -117,11 +129,12 @@
     padding: 30px;
     font-size: 36px;
     color: #ffffff;
-  
+
 }
+
 .box1 {
     background-color: #FF9C35;
-  
+
 }
 
 .box2 {
@@ -135,9 +148,7 @@
 
 /* product-element */
 
-.shoes-section {
-
-}
+.shoes-section {}
 
 .box {
     width: 100%;
@@ -149,7 +160,7 @@
     border-radius: 20px;
     border-width: 3px;
     text-align: center;
-    
+
 }
 
 .for-shoes-img {
@@ -159,6 +170,7 @@
     margin-bottom: 85px;
 
 }
+
 .for-shoes-text {
     width: 100%;
     max-width: 307px;
@@ -168,9 +180,10 @@
 .p {
     font-family: "Inter, sans-serif";
     color: #4E4E4E;
-    
+
 }
-.text-margin *{
+
+.text-margin * {
     margin-top: 5px;
 }
 
@@ -179,24 +192,30 @@
     color: white;
     width: 168px;
     height: 52px;
-    padding: 14px 20px ;
+    padding: 14px 20px;
     border-radius: 7px;
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     margin: 20px auto;
     cursor: pointer;
-  
+
 }
 
-#product-element-2 {
-    
-    
-    
+.btn:hover {
+    border: 3px solid yellow;
+    transform: scale(1.2);
 }
+
+
+
+#product-element-2 {}
+
 .shoes-section {
     margin-top: 98px;
 }
+
 .shoes-header {
     margin-bottom: 24px;
     font-size: 24px;
@@ -207,7 +226,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    alig
+    align-items: center;
     gap: 24px;
 }
 
@@ -228,29 +247,32 @@
     max-width: 635px;
     height: 100%;
     max-height: 230px;
-  
+
 }
 
 .fotter-email {
     width: 100%;
     max-width: 600px;
     height: 100%;
-    max-height: 90px;background-color: white;
+    max-height: 90px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    
+
 
 }
+
 
 .fotter-text {
     text-align: center;
     padding-bottom: 5px;
 }
+
 .fotter-email button {
     background-color: #FF136F;
-    width:130px;
+    width: 130px;
     height: 63px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
@@ -258,8 +280,9 @@
     color: white;
     border: none;
     cursor: pointer;
-    
+
 }
+
 .fotter-email input {
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
